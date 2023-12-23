@@ -1,0 +1,510 @@
+body{
+background-color: #c54131;
+scroll-behavior: smooth;
+}
+.main-film{
+overflow: hidden;
+}
+figure{
+position:relative;
+width: 500%;
+margin: 0;
+padding: 0;
+animation: 15s main-film infinite;
+}
+.main-film img{
+width: 416px;
+height: 300px;
+margin-top: 20px;
+float: left;
+}
+
+.navbar img{
+width: 50px;
+height: 30px;
+}
+.booking img{
+width: 151px;
+height:300px;
+border-radius: 15px;
+}
+.navbar a{
+margin-left: 145px;
+text-decoration: none;
+border-radius: 50px;
+color:#161616c9;
+font-size: 20px;
+}
+.navbar #login{
+border: 2px solid white;
+border-radius: 50px;
+padding: 10px;
+background-color: #ffb22b;
+border-color: #ffb22b;
+color: white;
+}
+.navbar #bar{ 
+margin-right: -50px;
+font-size: 35px;
+}
+.main-film2 a{
+text-decoration: none;
+color: #00eaff;
+margin-left: 175px;
+}
+.main-dates a{
+display: inline-block;
+text-decoration: none;
+margin-left: 20px;
+color: white;
+transition: all .55s ease;
+}
+.main-dates a:hover,
+.main-dates a.active{
+border-bottom: 2px solid white;
+}
+.booking{
+border: 3px solid black;
+}
+.booking #st{
+text-decoration: none;
+color: #228c22;
+margin-left: 2px;
+border: 2px solid #228c22;
+justify-content: space-between;
+line-height: 50px;
+padding: 7px;
+border-radius: 50px;
+}
+.booking #nd{
+text-decoration: none;
+color: #228c22;
+margin-left: 6px;
+border: 2px solid #228c22;
+line-height: 50px;
+border-radius: 50px;
+padding: 7px;
+}
+.next img{
+width: 350px;
+height: 300px;
+margin-left: 30px;
+border-radius: 15px;
+}
+.footer{
+background-color:black;
+width:430px;
+margin-left: -7px;
+margin-top: 110px;
+}
+
+.footer a{
+color: #00eaff;
+display: block;
+line-height: 35px;
+transition: all .55s ease;
+}
+.footer #quicklink{
+text-decoration: none;
+color: red;
+}
+.footer img{
+width: 80px;
+height: 40px;
+}
+h3{
+color:white;
+border: 2px solid white;
+background-color:#c54131 ;
+border-radius: 50px;
+}
+h4{
+color: white;
+font-size: 25px;
+}
+h5{
+color: white;
+font-size: 30px;
+}
+h6{
+color:white;
+font-size: 20px;
+}
+p{
+color:white;
+}
+i{
+color: white;
+}
+@keyframes main-film {
+0% {
+left: 0;
+}
+20% {
+left: 0;
+}
+30% {
+left: -100%;
+}
+40% {
+left: -100%;
+}
+50% {
+left: -200%;
+}
+60% {
+left: -200%;
+}
+70%{
+left: -300%;
+}
+80%{
+left: -300%;
+}
+90%{
+left: 0;
+}
+100%{
+left:0;
+}
+}
+@media(max-width:2560px){
+.navbar img{
+width: 200px;
+height: 40px;
+}
+.navbar a{
+margin-left: 800px;
+}
+.main-film img{
+width:2543px;
+height: 800px;
+}
+.main-film2 a{
+margin-left: 1000px;
+font-size: 40px;
+}
+h2{
+color: white;
+font-size: 80px;
+text-transform: uppercase;
+}
+.booking #st{
+margin-left: 250px;
+}
+.booking #nd{
+margin-left: 250px;
+}
+.main-dates a{
+margin-left: 300px;
+}
+.booking img{
+width: 800px;
+height: 800px;
+}
+.next img{
+width: 2500px;
+height: 1500px;
+}
+.footer{
+width:2560px;
+}
+}
+@media(max-width:1140px){
+.navbar img{
+width: 200px;
+height: 40px;
+}
+.navbar a{
+margin-left: 380px;
+}
+.main-film img{
+width:1100px;
+height: 600px;
+}
+.main-film2 a{
+margin-left: 500px;
+font-size: 30px;
+}
+h2{
+color: white;
+font-size: 40px;
+text-transform: uppercase;
+}
+.booking #st{
+margin-left: 75px;
+}
+.booking #nd{
+margin-left: 40px;
+}
+.main-dates a{
+margin-left: 100px;
+}
+.booking img{
+width: 400px;
+height: 400px;
+}
+.next img{
+width: 1000px;
+height: 900px;
+margin-left: 70px;
+}
+.footer{
+width: 1130px;
+}
+}
+@media(max-width:1024px){
+.navbar img{
+width: 175px;
+height: 40px;
+}
+.navbar a{
+margin-left: 320px;
+}
+.main-film img{
+width:1008px;
+height: 560px;
+}
+.main-film2 a{
+margin-left: 400px;
+font-size: 30px;
+}
+.booking #st{
+margin-left: 65px;
+}
+.booking #nd{
+margin-left: 30px;
+}
+.main-dates a{
+margin-left: 80px;
+}
+.booking img{
+width: 370px;
+height: 380px;
+}
+.next img{
+width: 970px;
+height: 900px;
+margin-left: 20px;
+}
+.footer{
+width: 1000px;
+}
+}
+@media(max-width:768px){
+.navbar img{
+width: 150px;
+height: 30px;
+}
+.navbar a{
+margin-left: 240px;
+}
+.figure{
+width: 500%;
+}
+.main-film img{
+width:751px;
+height: 500px;
+}
+.main-film2 a{
+margin-left: 330px;
+font-size: 30px;
+}
+.booking #st{
+margin-left: 45px;
+}
+.booking #nd{
+margin-left: 25px;
+}
+.main-dates a{
+margin-left: 60px;
+}
+.booking img{
+width: 340px;
+height: 340px;
+}
+.next img{
+width:720px;
+height:400px;
+margin-left: 20px;
+}
+.footer{
+width: 760px;
+}
+}
+@media(max-width:480px){
+.navbar img{
+width: 40px;
+height: 25px;
+}
+.navbar a{
+margin-left: 140px;
+}
+.figure{
+width: 500%;
+}
+.main-film img{
+width:444px;
+height: 300px;
+}
+.main-film2 a{
+margin-left: 160px;
+font-size: 20px;
+}
+h2{
+font-size: 25px;
+}
+.booking #st{
+margin-left: 6px;
+}
+.booking #nd{
+margin-left: 18px;
+}
+.main-dates a{
+margin-left: 15px;
+}
+.booking img{
+width: 200px;
+height: 200px;
+}
+.next img{
+width:400px;
+height:300px;
+margin-left: 20px;
+}
+.footer{
+width: 470px;
+}
+}
+@media(max-width:435px){
+.navbar img{
+width: 40px;
+height: 25px;
+}
+.navbar a{
+margin-left: 140px;
+}
+.figure{
+width: 500%;
+}
+.main-film img{
+width:416px;
+height: 300px;
+}
+.main-film2 a{
+margin-left: 160px;
+font-size: 20px;
+}
+h2{
+font-size: 25px;
+}
+.booking #st{
+margin-left: 6px;
+}
+.booking #nd{
+margin-left: 7px;
+}
+.main-dates a{
+margin-left: 15px;
+}
+.booking img{
+width: 200px;
+height: 200px;
+}
+.next img{
+width:350px;
+height:300px;
+margin-left: 20px;
+}
+.footer{
+width: 430px;
+}
+}
+@media(max-width:360px){
+.navbar img{
+width: 20px;
+height: 25px;
+}
+.navbar a{
+margin-left: 100px;
+}
+.figure{
+width: 500%;
+}
+.main-film img{
+width:344px;
+height: 300px;
+}
+.main-film2 a{
+margin-left: 130px;
+font-size: 15px;
+}
+h2{
+font-size: 17px;
+}
+.booking #st{
+margin-left: 6px;
+}
+.booking #nd{
+margin-left: 20px;
+}
+.main-dates a{
+margin-left: 7px;
+}
+.booking img{
+width: 120px;
+height: 180px;
+}
+.next img{
+width:290px;
+height:200px;
+margin-left: 30px;
+}
+.footer{
+width: 360px;
+}
+}
+@media(max-width:320px){
+.navbar img{
+width: 20px;
+height: 25px;
+}
+.navbar a{
+margin-left: 100px;
+}
+.figure{
+width: 500%;
+}
+.main-film img{
+width:304px;
+height: 300px;
+}
+.main-film2 a{
+margin-left: 130px;
+font-size: 15px;
+}
+h2{
+font-size: 17px;
+}
+.booking #st{
+margin-left: 6px;
+}
+.booking #nd{
+margin-left: 20px;
+}
+.main-dates a{
+margin-left: 7px;
+}
+.booking img{
+width: 120px;
+height: 180px;
+}
+.next img{
+width:250px;
+height:200px;
+margin-left: 30px;
+}
+.footer{
+width: 314px;
+}
+}
